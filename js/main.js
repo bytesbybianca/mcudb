@@ -72,20 +72,17 @@ document.querySelector('.leftArrow').addEventListener('click', function () {
     //checks to see if the value is more than one so it doesn't go negative
     if (id > 1) {
         id -= 1
-        console.log(`${id} Left arrow`)
         goFetch(id)
-        console.log(`${id} Left arrow after call`)
     } else {
         id = 36
     }
 })
+
 document.querySelector('.rightArrow').addEventListener('click', function () {
     if (id == 35) {
         id = 0
     } else if (id < 35) {
         id += 1
-        console.log(`${id} Right arrow`)
         goFetch(id)
-        console.log(`${id} Right arrow after call`)
     }
 })
