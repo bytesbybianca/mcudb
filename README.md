@@ -6,7 +6,7 @@
 
 🎯 Our class was recently introduced to APIs and we've been tasked with building a simple app with an API.
 
-🔨 Choose an MCU movie by its number in release date order.
+🧩 Choose an MCU movie by its number in release date order.
 
 📜 Page displays
 - movie title
