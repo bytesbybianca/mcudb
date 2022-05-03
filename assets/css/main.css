@@ -1168,27 +1168,9 @@ input, select, textarea {
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			/* background-image: url("../../images/bg.jpg"); */
 			background-position: top;
-			background-size: 40%;
-			background-repeat: repeat;
+			background-size: 100%;
+			background-repeat: no-repeat;
 			z-index: 1;
-		}
-
-		@media screen and (max-width: 2280px) {
-
-			#bg:after, .mcuBackground {
-				background-size: 60%;
-				background-repeat: repeat;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			#bg:after, .mcuBackground {
-				background-size: 90%;
-				background-repeat: repeat;
-			}
-
 		}
 
 		@media screen and (max-width: 480px) {
