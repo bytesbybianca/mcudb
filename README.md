@@ -13,14 +13,10 @@
 - movie title
 - movie poster
 - director
-<!-- - phase number within the MCU
-- number of post credit scenes -->
 - release date
 - movie synopsis
-<!-- - playable trailer
-- link to IMDB page -->
 
 🤖 I used HTML, CSS, and JavaScript for this project.
 
-✨ MCU Countdown API: https://github.com/DiljotSG/MCU-Countdown
+✨ MCU Countdown API: https://github.com/DiljotSG/MCU-Countdown<br>
 ✨ MCU API: https://github.com/AugustoMarcelo/mcuapi
