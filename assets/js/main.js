@@ -88,8 +88,15 @@ function getMCU(){
           let movieChoice = displayMovie.target.value
           data.data.map(movie => {
             if(movie.title == movieChoice) {
-              document.querySelector('.movieImage').src = movie.cover_url
-              document.querySelector('.mcuBackground').style.backgroundImage = `url('${movie.cover_url}')`
+              // setTimeout(function() {
+                document.querySelector('.movieImage').src = movie.cover_url
+                document.querySelector('.mcuBackground').style.backgroundImage = `url('${movie.cover_url}')`
+              // }, 1000);
+
+              document.querySelector('.mcuTitle').innerText = movie.title
+              document.querySelector('.mcuRelease').innerText = `Released: ${movie.release_date}`
+              document.querySelector('.mcuDirector').innerText = `Directed by: ${movie.directed_by}`
+              document.querySelector('.mcuOverview').innerText = movie.overview
             }
           })
         })
