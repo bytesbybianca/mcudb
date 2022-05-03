@@ -1,7 +1,7 @@
 # 💥 MCU Carousel
 
 <p align="center">
-<img src="https://i.imgur.com/n84xGiY.gif">
+<img src="https://github.com/bytesbybianca/readme-assets/blob/main/project-images/mcu-main.gif?raw=true">
 </p>
 
 🎯 Our class was recently introduced to APIs and we've been tasked with building a simple app with an API.
