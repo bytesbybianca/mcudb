@@ -112,10 +112,6 @@ function resetBackground(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         
-        // cannot select #bg:after psuedo element
-        // added class to html element + added class to CSS styles for #bg:after
-        // document.querySelector('#bg').classList.add('mcuBackground')
-        // selected class to change bg image
         document.querySelector('.mcuBackground').style.backgroundImage = `url('${data.poster_url}')`
       })
       .catch(err => {

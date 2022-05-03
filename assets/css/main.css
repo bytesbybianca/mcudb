@@ -1173,6 +1173,14 @@ input, select, textarea {
 			z-index: 1;
 		}
 
+		@media screen and (max-width: 480px) {
+
+			#bg:after, .mcuBackground {
+				background-size: cover;
+			}
+
+		}
+
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
