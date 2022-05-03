@@ -18,5 +18,7 @@
 
 🤖 I used HTML, CSS, and JavaScript for this project.
 
+💥 Check out the live site here: https://allmcu.netlify.app/
+
 ✨ MCU Countdown API: https://github.com/DiljotSG/MCU-Countdown<br>
 ✨ MCU API: https://github.com/AugustoMarcelo/mcuapi
