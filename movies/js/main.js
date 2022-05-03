@@ -11,7 +11,7 @@ function getMCU() {
         unhide()
     }
 }
-
+// https://github.com/AugustoMarcelo/mcuapi
 function goFetch(id) {
     fetch(`https://mcuapi.herokuapp.com/api/v1/movies/${id}`)
         .then(res => res.json()) // parse response as JSON
