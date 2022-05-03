@@ -118,8 +118,12 @@ img {
      width: 480px;
 }
 
+.instructions {
+     margin-top: 2rem;
+}
+
 input {
-     margin: 2rem 0;
+     margin: 0 0 2rem 0;
      width: 200px;
      background-color: white;
 }
