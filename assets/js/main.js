@@ -114,6 +114,61 @@ function getMCU(){
 getMCU()
 
 
+function getMCUSeries(){
+  const url = 'https://mcuapi.herokuapp.com/api/v1/tvshows/'
+
+  fetch(url)
+      .then(res => res.json()) // parse response as JSON
+      .then(data => {
+        console.log(data)
+          // list all movies into an array
+          let series = []
+          const selectSeries = document.querySelector('#selectSeries')
+          data.data.map((el) => series.push(el.title))
+          console.log(series)
+          function makeSeriesSelect() {
+            for(let i = 0; i < series.length; i++) {
+              let optn = series[i];
+              let el = document.createElement('option');
+              el.textContent = `${data.data[i].id}. ${optn}`;
+              el.value = optn;
+              selectSeries.appendChild(el);
+            }
+          }
+          makeSeriesSelect()
+
+          document.querySelector('#selectSeries').addEventListener('change', displaySeries => {
+            console.log(displaySeries.target.value)
+            let seriesChoice = displaySeries.target.value
+            data.data.map(el => {
+              if(el.title == seriesChoice) {
+                  document.querySelector('body').classList.add('is-preload')
+                  // document.querySelector('article').classList.add('is-preload')
+                  document.querySelector('.seriesImage').src = el.cover_url
+                  document.querySelector('.mcuBackground').style.backgroundImage = `url('${el.cover_url}')`
+                  setTimeout(function() {
+                    document.querySelector('body').classList.remove('is-preload')
+                //     document.querySelector('body').classList.remove('article')
+                }, 100);
+  
+                document.querySelector('.mcuSeriesTitle').innerText = el.title
+                document.querySelector('.mcuSeriesRelease').innerText = `Released: ${el.release_date}`
+                document.querySelector('.mcuSeriesDirector').innerText = `Directed by: ${el.directed_by}`
+                document.querySelector('.mcuSeriesNumOfEps').innerText = `Number of episodes: ${el.number_episodes}`
+                document.querySelector('.mcuSeriesOverview').innerText = el.overview
+              }
+            })
+          })
+  
+        })
+      .catch(err => {
+          console.log(`error ${err}`)
+      });
+}
+
+getMCUSeries()
+
+
 // document.querySelector('.close').addEventListener('click', resetBackground)
 
 function resetBackground(){
