@@ -1,4 +1,4 @@
-# 💥 MCU Carousel
+# 💥 Marvel Cinematic Universe
 
 <p align="center">
 <img src="https://github.com/bytesbybianca/readme-assets/blob/main/project-images/mcu-main.gif?raw=true">
