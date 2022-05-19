@@ -1,4 +1,4 @@
-# 💥 Marvel Cinematic Universe
+# 💥 Marvel Cinematic Universe Database (MCUDB)
 
 <p align="center">
 <img src="https://github.com/bytesbybianca/readme-assets/blob/main/project-images/mcu-main.gif?raw=true">
@@ -6,7 +6,7 @@
 
 🎯 Our class was recently introduced to APIs and we've been tasked with building a simple app with an API.
 
-🧩 View a countdown to the next MCU release, then choose an MCU movie to view more details.
+🧩 View a countdown to the next MCU release, then choose an MCU movie or series to view more details.
 
 📜 Page displays
 - countdown to next MCU release
@@ -16,7 +16,7 @@
 - release date
 - movie synopsis
 
-🤖 I used HTML, CSS, and JavaScript for this project.
+🤖 HTML, CSS, and JavaScript was used for this project.
 
 💥 Check out the live site here: https://allmcu.netlify.app/
 
