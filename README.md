@@ -8,6 +8,8 @@
 
 🧩 View a countdown to the next MCU release, then choose an MCU movie or series to view more details.
 
+💥 Check out the live site here: https://allmcu.netlify.app/
+
 📜 Homepage displays
 - movie poster 
 - movie title 
@@ -17,7 +19,6 @@
 
 🤖 HTML, CSS, and JavaScript was used for this project.
 
-💥 Check out the live site here: https://allmcu.netlify.app/
-
-✨ MCU Countdown API: https://github.com/DiljotSG/MCU-Countdown<br>
-✨ MCU API: https://github.com/AugustoMarcelo/mcuapi
+✨ API'S used
+- MCU Countdown API: https://github.com/DiljotSG/MCU-Countdown<br>
+- MCU API: https://github.com/AugustoMarcelo/mcuapi
