@@ -10,7 +10,7 @@
 
 💥 Check out the live site here: https://allmcu.netlify.app/
 
-📜 Homepage displays
+📜 Homepage displays:
 - movie poster 
 - movie title 
 - countdown to next MCU release 
@@ -19,6 +19,6 @@
 
 🤖 HTML, CSS, and JavaScript was used for this project.
 
-✨ API'S used
+✨ API'S used:
 - MCU Countdown API: https://github.com/DiljotSG/MCU-Countdown<br>
 - MCU API: https://github.com/AugustoMarcelo/mcuapi
