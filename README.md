@@ -10,7 +10,7 @@
 
 🧩 View a countdown to the next MCU release, then choose an MCU movie or series to view more details.
 
-💥 Check out the live site here: https://allmcu.netlify.app/
+💥 Check out the live site here: https://mcudb.netlify.app/
 
 📜 Homepage displays:
 - movie poster 
