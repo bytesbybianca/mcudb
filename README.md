@@ -17,6 +17,8 @@
 - release date 
 - movie synopsis 
 
+## Tech Used
+
 🤖 HTML, CSS, and JavaScript was used for this project.
 
 ✨ API'S used:
