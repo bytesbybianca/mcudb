@@ -4,6 +4,8 @@
 <img src="https://github.com/bytesbybianca/readme-assets/blob/main/project-images/mcu-main.gif?raw=true">
 </p>
 
+## About MCUDB 
+
 🎯 The 100Devs 2022 Cohort was introduced to APIs and students were tasked with building a simple application that incorporates an API.
 
 🧩 View a countdown to the next MCU release, then choose an MCU movie or series to view more details.
@@ -17,7 +19,7 @@
 - release date 
 - movie synopsis 
 
-## Tech Used
+## 👩‍💻 Tech Used
 
 🤖 HTML, CSS, and JavaScript was used for this project.
 
