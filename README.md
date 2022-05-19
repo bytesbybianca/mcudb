@@ -4,7 +4,7 @@
 <img src="https://github.com/bytesbybianca/readme-assets/blob/main/project-images/mcu-main.gif?raw=true">
 </p>
 
-## About MCUDB 
+## 🚀 About MCUDB 
 
 🎯 The 100Devs 2022 Cohort was introduced to APIs and students were tasked with building a simple application that incorporates an API.
 
@@ -21,8 +21,8 @@
 
 ## 👩‍💻 Tech Used
 
-🤖 HTML, CSS, and JavaScript was used for this project.
+🤖 HTML, CSS, JavaScript
 
-✨ API'S used:
+✨ API's used:
 - MCU Countdown API: https://github.com/DiljotSG/MCU-Countdown<br>
 - MCU API: https://github.com/AugustoMarcelo/mcuapi
